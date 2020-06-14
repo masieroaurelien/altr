@@ -1,0 +1,577 @@
+/*----------          Mise en page principale + import font         ----------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500,100');
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+
+}
+
+
+/*----------          Nav Bar          ----------*/
+
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: auto;
+	background-color: #333;
+	color: #666;
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+
+li {
+	list-style-type: none;
+	margin-right: 30px;
+}
+
+a.nav {
+	text-decoration: none;
+	list-style-type: none;
+	color: #666;
+}
+
+a.nav:hover {
+	color: #FFF;
+}
+
+/*----------          Index          ----------*/
+
+div.container {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+div.imgindex {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+img.index {
+	width: 100%;
+	height: auto;
+}
+
+
+div.textimgindex {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	justify-content: center;
+}
+
+title.indexpres, p.indexpres {
+	display: flex;
+	justify-content: center;
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+}
+
+title.indexpres {
+	font-size: 58px;
+}
+
+p.indexpres {
+	font-size: 30px;
+}
+
+div.flex {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+div.projetaltr, div.discord, div.toux{
+	width: 500px;
+	height: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+title.indexpdt {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+}
+
+p.indexpdt {
+	width: 400px;
+}
+
+img.indexpdt {
+	width: 100%;
+	height: auto;
+}
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+/*----------          x          ----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
