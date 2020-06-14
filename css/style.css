@@ -53,6 +53,7 @@ div.container {
 	position: relative;
 	width: 100%;
 	height: auto;
+	margin-bottom: 40px;
 }
 
 div.imgindex {
@@ -102,7 +103,7 @@ div.flex {
 	justify-content: center;
 }
 
-div.projetaltr, div.discord, div.toux{
+div.case {
 	width: 500px;
 	height: auto;
 	margin-right: 20px;
@@ -125,6 +126,8 @@ img.indexpdt {
 	width: 100%;
 	height: auto;
 }
+
+
 
 /*----------          x          ----------*/
 

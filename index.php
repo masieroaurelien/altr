@@ -1,8 +1,3 @@
-<?php
-
-include 'include/if.php';
-
-?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -31,7 +26,7 @@ include 'include/if.php';
 
 		<div class="container flex">
 
-			<div class="projetaltr">
+			<div class="case">
 
 				<title class="indexpdt">Le Projet ALT-R</title>
 
@@ -41,7 +36,7 @@ include 'include/if.php';
 
 			</div>
 
-			<div class="discord">
+			<div class="case">
 
 				<title class="indexpdt">Le fruit de la Discord</title>
 
@@ -52,7 +47,7 @@ include 'include/if.php';
 				
 			</div>
 
-			<div class="toux">
+			<div class="case">
 
 				<title class="indexpdt">Une toux qui mêne à tout</title>
 
@@ -65,7 +60,34 @@ include 'include/if.php';
 		</div>
 
 		<div class="container">
-			
+			<title class="indexpdt">ALT-R, pour que la recherche d'alternance ne soit plus un poids.</title>
+
+			<div class="container flex">
+				<div class="case">
+					<img src="medias/alternant.png" class="indexpdt">
+
+					<title class="indexpdt">Alternant / Alternante</title>
+
+					<p class="indexpdt">Tu galères à trouver une entreprise pour t’accueillir en alternance ? Tu ne tombes que sur des stages sous-payés exigeants plusieurs années d’XP ? Tu enchaines refus sur refus, ton rêve de reconversion s’éloigne au fil des jours ?</p>
+				</div>
+
+				<div class="case">
+					<img src="medias/present.png" class="indexpdt">
+
+					<title class="indexpdt">Nous sommes là!</title>
+
+					<p class="indexpdt">On te comprend, on est passé par là. Sauter le pas de la reconversion, affronter la peur de l’inconnu, se bouger pour trouver la formation qui nous correspond ça n'a jamais été facile.</p>
+				</div>
+
+				<div class="case">
+					<img src="medias/help.png" class="indexpdt">
+
+					<title class="indexpdt">ALT-R à l'aide!</title>
+
+					<p class="indexpdt">Avec ALT-R, on veut t’aider à reprendre du poil de la bête et te conseiller du mieux possible pour que tu puisses décrocher ton contrat d’alternance, et réussir ton projet professionnel !</p>
+				</div>
+			</div>
+				
 		</div>
 
 
