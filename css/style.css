@@ -10,6 +10,10 @@ body, html {
 
 }
 
+a {
+	height: auto;
+}
+
 
 /*----------          Nav Bar          ----------*/
 
@@ -20,7 +24,7 @@ nav {
 	width: 100%;
 	height: auto;
 	background-color: #333;
-	color: #666;
+	color: #999;
 	font-size: 22px;
 	font-weight: lighter;
 }
@@ -40,11 +44,16 @@ li {
 a.nav {
 	text-decoration: none;
 	list-style-type: none;
-	color: #666;
+	color: #999;
 }
 
 a.nav:hover {
 	color: #FFF;
+}
+
+img.logonav {
+	width: auto;
+	height: 30px;
 }
 
 /*----------          Index          ----------*/
@@ -106,11 +115,15 @@ div.flex {
 div.case {
 	width: 500px;
 	height: auto;
-	margin-right: 20px;
-	margin-left: 20px;
+	padding: 10px;
+	margin: 5px 5px 5px 5px;
+	flex-wrap: wrap;
+	display: flex;
+	background-color: #CECECE;
+	justify-content: center;
 }
 
-title.indexpdt {
+title.index {
 	display: flex;
 	justify-content: center;
 	font-size: 40px;
@@ -118,16 +131,57 @@ title.indexpdt {
 	padding-bottom: 20px;
 }
 
-p.indexpdt {
+p.index {
 	width: 400px;
 }
 
-img.indexpdt {
+img.index {
 	width: 100%;
 	height: auto;
 }
 
+img.case {
+	width: 300px;
+	height: 300px;
+}
 
+div.members {
+	width: 300px;
+	text-align: center;
+}
+
+img.members {
+	width: 300px;
+	height: 300px;
+}
+
+img.linkedin {
+	width: 50px;
+}
+
+div.disclaimer {
+	width: 30%;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	background-color: #999;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+title.disclaimer {
+	display: block;
+	font-size: 20px;
+}
+
+p.disclaimer {
+	font-size: 14px;
+}
 
 /*----------          x          ----------*/
 
