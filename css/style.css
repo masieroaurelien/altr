@@ -7,11 +7,16 @@ body, html {
 	padding: 0px;
 	font-family: 'Roboto', sans-serif;
 	color: #000;
+	background-color: #F4F3F3;
 
 }
 
 a {
 	height: auto;
+}
+
+title {
+	display: block;
 }
 
 
@@ -51,11 +56,6 @@ a.nav:hover {
 	color: #FFF;
 }
 
-img.logonav {
-	width: auto;
-	height: 30px;
-}
-
 /*----------          Index          ----------*/
 
 div.container {
@@ -69,6 +69,19 @@ div.imgindex {
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+
+img.logo {
+	width: 300px;
+	height: auto;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+img.minilogo {
+	width: auto;
+	height: 30px;
 }
 
 img.index {
@@ -113,14 +126,14 @@ div.flex {
 }
 
 div.case {
-	width: 500px;
+	width: 400px;
 	height: auto;
 	padding: 10px;
-	margin: 5px 5px 5px 5px;
+	margin: 5px;
 	flex-wrap: wrap;
 	display: flex;
-	background-color: #CECECE;
 	justify-content: center;
+	margin: 30px;
 }
 
 title.index {
@@ -132,7 +145,18 @@ title.index {
 }
 
 p.index {
+	width: 100%;
+}
+
+p.projet {
+	position: absolute;
+	top: 25%;
+	bottom: 0;
+	left: 45%;
+	right: 0;
+	font-size: 40px;
 	width: 400px;
+	text-align: center;
 }
 
 img.index {
@@ -140,19 +164,33 @@ img.index {
 	height: auto;
 }
 
-img.case {
+img.projet {
 	width: 300px;
-	height: 300px;
+	height: auto;
+	position: relative;
+	left: 30%;
+}
+
+img.case {
+	width: 100%;
+	height: auto;
 }
 
 div.members {
-	width: 300px;
-	text-align: center;
+	width: 400px;
+	margin: 20px 50px;
+	padding: 0px 20px;
+	text-align: left;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background-color: #FFF;
 }
 
 img.members {
-	width: 300px;
-	height: 300px;
+	width: 100%;
+	height: auto;
+	position: relative;
 }
 
 img.linkedin {
@@ -166,12 +204,21 @@ div.disclaimer {
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: column;
-	background-color: #999;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
 	padding-right: 20px;
 	padding-left: 20px;
+}
+
+title.members {
+	display: block;
+	font-size: 20px;
+	text-align: center;
+}
+
+p.members {
+	text-align: center;
 }
 
 title.disclaimer {
@@ -183,22 +230,106 @@ p.disclaimer {
 	font-size: 14px;
 }
 
-/*----------          x          ----------*/
+img.dt {
+	width: 50%;
+	opacity: 0.5;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+div.dt {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+}
+
+div.dt1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -25%);
+	width: 40%;
+}
+
+title.dt {
+	font-size: 40px;
+	text-align: center;
+}
+
+p.dt {
+	font-size: 30px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+/*----------          Alternance          ----------*/
 
 
-/*----------          x          ----------*/
+/*----------          Conseils          ----------*/
 
 
-/*----------          x          ----------*/
+/*----------          Podcast          ----------*/
 
 
-/*----------          x          ----------*/
+/*----------          Paroles d'alternants          ----------*/
 
 
-/*----------          x          ----------*/
+/*----------          Contact          ----------*/
 
 
-/*----------          x          ----------*/
+
+
+/*----------          Footer          ----------*/
+
+footer {
+	background-color: #000;
+	color: #FFF;
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+	bottom: 0px;
+}
+
+div.footer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	position: absolute;
+	right: 70px;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+img.footer {
+	width: 494px;
+	height: 175px;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-75%, -50%);
+}
+
+title.footer {
+	font-size: 32px;
+	padding: 0px;
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+p.footer {
+	font-weight: lighter;
+	font-size: 22px;
+	padding: 0px;
+	margin: 0px;	
+}
 
 
 /*----------          x          ----------*/

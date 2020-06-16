@@ -1,6 +1,5 @@
 <nav>
 	<ul>
-		<li><img src="medias/logo/logob.png" class="logonav"></li>
 		<a href="index.php" class="nav"><li>Accueil</li></a>
 		<a href="alternance.php" class="nav"><li>Alternance</li></a>
 		<a href="conseils.php" class="nav"><li>Conseils</li></a>

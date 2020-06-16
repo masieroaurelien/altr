@@ -15,8 +15,8 @@
 			<img src="medias/index1.jpg" class="index">
 
 			<div class="textimgindex">
-				<title class="indexpres">ALT-R</title>
-				<p class="indexpres">Le site pour muscler ta recherche d'alternance</p>
+				<img src="medias/logo/logo.png" class="logo">
+				<p class="indexpres">Le site pour muscler ta recherche d'alternance <img src="medias/logo/muscle_haltere.png" class="minilogo"> </p>
 			</div>
 		</div>
 
@@ -24,36 +24,38 @@
 			<!-- intégrer carousel de Garbiela ici -->
 		</div>
 
-		<div class="container flex">
+		<div class="container">
 
-			<div class="case">
+			<title class="index">Le Projet ALT-R</title>
 
-				<title class="index">Le Projet ALT-R</title>
+			<img src="medias/projetaltr.jpg" class="projet">
 
-				<img src="medias/projetaltr.png" class="case">
+			<p class="projet">Découvre l’histoire du projet ALT-R dédié à la recherche d’alternance.</p>
+		</div>
 
-				<p class="index">Découvre l’histoire du projet ALT-R dédié à la recherche d’alternance.</p>
+		<div class="container">
 
+			<img src="medias/discord.png" class="dt">
+
+			<div class="dt">
+				<title class="dt">Le fruit de la Discord</title>
+
+				<p class="dt">Tout a commencé lorsque Morgane, une super coach en insertion professionnelle, a créé un channel Discord. Ce dernier permet à ses coachés d’échanger, de s’entraider et de progresser collectivement. C’est comme ça que Gabriela, Aurélien, Thomas et Amélie, 4 alternants d’OpenClassrooms se sont rencontrés virtuellement pour mettre sur pied ALT-R. Toujours accompagnés de leur bonne fée Morgane !</p>
 			</div>
+				
+		</div>
 
-			<div class="case">
+		<div class="container">
+			
+				<img src="medias/toux.png" class="dt">
 
-				<title class="index">Le fruit de la Discord</title>
+			<div class="dt1">
 
-				<img src="medias/discord.png" class="case">
-
-				<p class="index">Tout a commencé lorsque Morgane, une super coach en insertion professionnelle, a créé un channel Discord. Ce dernier permet à ses coachés d’échanger, de s’entraider et de progresser collectivement. C’est comme ça que Gabriela, Aurélien, Thomas et Amélie, 4 alternants d’OpenClassrooms se sont rencontrés virtuellement pour mettre sur pied ALT-R. Toujours accompagnés de leur bonne fée Morgane !</p>
+				<title class="dt">Une toux qui mêne à tout</title>
 
 				
-			</div>
-
-			<div class="case">
-
-				<title class="index">Une toux qui mêne à tout</title>
-
-				<img src="medias/toux.png" class="case">
-				
-				<p class="index">Alors que le COVID-19 condamnait la France à un Confinement à Durée Indéterminée, on a voulu utiliser ce temps à bon escient, en mettant nos expériences et nos compétences complémentaires au service d’un projet utile pour nos pairs. On vient tous d’horizons très différents, mais on est tous en reconversion professionnelle, tous passionnés de tech & digital. C’est pourquoi, on a voulu s’adresser à toi, futur alternant qui est dans la même situation que nous : tu n’es pas seul, tu vas y arriver !</p>
+				<p class="dt">Alors que le COVID-19 condamnait la France à un Confinement à Durée Indéterminée, on a voulu utiliser ce temps à bon escient, en mettant nos expériences et nos compétences complémentaires au service d’un projet utile pour nos pairs.</p>
+				<p class="dt">On vient tous d’horizons très différents, mais on est tous en reconversion professionnelle, tous passionnés de tech & digital. C’est pourquoi, on a voulu s’adresser à toi, futur alternant qui est dans la même situation que nous : tu n’es pas seul, tu vas y arriver !</p>
 
 			</div>
 			
@@ -97,7 +99,7 @@
 				<div class="case members">
 					<img src="medias/aurelien.png" class="members">
 					<title class="members">Aurélien Masiero</title>
-					<p class="index">Développeur Web</p>
+					<p class="members">Développeur Web</p>
 					<a href="https://www.linkedin.com/in/aurelien-masiero" target="_blank"><img src="medias/linkedin.svg" class="linkedin"></a>
 					<p class="index">Un peu touche à tout dans le domaine de l'informatique, le développement web est un des rares à être resté, et je compte bien vivre de ma passion !</p>
 				</div>
@@ -105,7 +107,7 @@
 				<div class="case members">
 					<img src="medias/gabriela.png" class="members">
 					<title class="members">Gabriela Vasquez</title>
-					<p class="index">Développeuse Web</p>
+					<p class="members">Développeuse Web</p>
 					<a href="https://www.linkedin.com/in/gabrielavasquezmendez/" target="_blank"><img src="medias/linkedin.svg" class="linkedin"></a>
 					<p class="index">Anciennement styliste, chef de produit, commercial dans la mode, entrepreneuse à vie et développeuse web d’avenir, je surfe sur des vagues dans une mer débordante d’aventures.</p>
 				</div>
@@ -113,7 +115,7 @@
 				<div class="case members">
 					<img src="medias/thomas.png" class="members">
 					<title class="members">Thomas Gouallou</title>
-					<p class="index">Développeur Web</p>
+					<p class="members">Développeur Web</p>
 					<a href="https://www.linkedin.com/in/thomas-gouallou-b62a16a6" target="_blank"><img src="medias/linkedin.svg" class="linkedin"></a>
 					<p class="index">Passionné d'Histoire et d'informatique, je suis spécialisé dans le développement web et la Première Guerre Mondiale.</p>
 				</div>
@@ -121,7 +123,7 @@
 				<div class="case members">
 					<img src="medias/morgane.png" class="members">
 					<title class="members">Morgane Lloret</title>
-					<p class="index">Coach RH</p>
+					<p class="members">Coach RH</p>
 					<a href="https://www.linkedin.com/in/morgane-lloret-b1092bb3" target="_blank"><img src="medias/linkedin.svg" class="linkedin"></a>
 					<p class="index">Coach en insertion et réorientation professionnelle, j’aide les personnes à accomplir leurs objectifs professionnels dans la joie et la bonne humeur.</p>
 				</div>
@@ -129,7 +131,7 @@
 				<div class="case members">
 					<img src="medias/amelie.png" class="members">
 					<title class="members">Amélie Bichon-Fortin</title>
-					<p class="index">RH</p>
+					<p class="members">RH</p>
 					<a href="https://www.linkedin.com/in/ameliebichonfortin" target="_blank"><img src="medias/linkedin.svg" class="linkedin"></a>
 					<p class="index">Après 6 ans de communication, je me suis lancée dans les ressources humaines avec l’objectif de me spécialiser dans l’accompagnement des profils tech & digital.</p>
 				</div>
@@ -142,5 +144,5 @@
 			<p class="disclaimer">Nous ne sommes ni partenaires, ni affiliés d’OpenClassrooms. ALT-R est un projet sans aucun but lucratif, proposant seulement des conseils et du soutien.</p>
 		</div>
 	</body>
-
+	<?php include 'include/footer.php'; ?>
 </html>
