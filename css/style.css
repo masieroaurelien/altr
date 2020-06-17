@@ -13,6 +13,9 @@ body, html {
 
 a {
 	height: auto;
+	text-decoration: none;
+	list-style-type: none;
+	color: #FFF;
 }
 
 title {
@@ -22,7 +25,7 @@ title {
 
 /*----------          Nav Bar          ----------*/
 
-nav {
+nav.navbar {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -34,21 +37,19 @@ nav {
 	font-weight: lighter;
 }
 
-ul {
+ul.navbar {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
 	justify-content: center;
 }
 
-li {
+li.navbar {
 	list-style-type: none;
 	margin-right: 30px;
 }
 
 a.nav {
-	text-decoration: none;
-	list-style-type: none;
 	color: #999;
 }
 
@@ -267,9 +268,136 @@ p.dt {
 
 /*----------          Alternance          ----------*/
 
+div.alternance {
+	background-color: #FFF;
+	text-align: left;
+	margin: 10px 70px;
+	padding: 0px;
+}
+
+img.alternance {
+	width: 400px;
+	height: auto;
+}
+
+img.alternanceart {
+	width: 50%;
+	height: auto;
+	display: block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 20px;
+}
+
+title.alternance {
+	padding: 0px 20px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: lighter;
+	display: inline-block;
+}
+
+
+title.alternanceart {
+	padding: 20px 20px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: lighter;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+p.alternance {
+	padding: 0px 20px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+p.alternanceart {
+	padding: 0px 20px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 75%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+a.alternance {
+	color: #000;
+}
 
 /*----------          Conseils          ----------*/
 
+div.conseils {
+	background-color: #FFF;
+	text-align: left;
+	margin: 10px 70px;
+	padding: 0px;
+	width: 600px;
+}
+
+img.conseils {
+	width: 100%;
+	height: auto;
+}
+
+img.conseilsart {
+	width: 50%;
+	height: auto;
+	display: block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 20px;
+}
+
+title.conseils {
+	padding: 0px 20px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: lighter;
+	display: inline-block;
+}
+
+
+title.conseilsart {
+	padding: 20px 20px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: lighter;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+p.conseils {
+	padding: 0px 20px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+p.conseilsart {
+	padding: 0px 20px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 75%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+a.conseils {
+	color: #000;
+}
 
 /*----------          Podcast          ----------*/
 
@@ -287,7 +415,7 @@ p.dt {
 footer {
 	background-color: #000;
 	color: #FFF;
-	height: 350px;
+	height: 400px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -329,6 +457,25 @@ p.footer {
 	font-size: 22px;
 	padding: 0px;
 	margin: 0px;	
+}
+
+nav.footer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	color: #FFF;
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+ul.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+li.footer {
+	list-style-type: none;
 }
 
 
