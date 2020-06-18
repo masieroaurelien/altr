@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 	    <title>ALT-R - Podcasts</title>
-	    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
+		<meta charset="utf-8">
 	</head>
 
 	<header>
