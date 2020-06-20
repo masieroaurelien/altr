@@ -90,6 +90,142 @@ img.index {
 	height: auto;
 }
 
+/*----------          carousel start          ----------*/
+  .content-slider {
+	width: 100%;
+	height: 360px;
+  }
+  
+  .slider {
+	height: 320px;
+	width: 680px;
+	margin: 40px auto 0;
+	overflow: visible;
+	position: relative;
+  }
+  
+  .mask {
+	overflow: hidden;
+	height: 320px;
+  }
+  
+  .slider ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+  }
+  
+  .slider li {
+	width: 680px;
+	height: 320px;
+	position: absolute;
+	top: -325px;
+	list-style: none;
+  }
+  
+  .slider .quote {
+	font-size: 32px;
+  }
+  
+  .slider .source {
+	font-size: 16px;
+	font-style: italic;
+	text-align: right;
+  }
+  
+  .slider li.anim1 {
+	animation: cycle 15s linear infinite;
+  }
+  
+  .slider li.anim2 {
+	animation: cycle2 15s linear infinite;
+  }
+  
+  .slider:hover li {
+	animation-play-state: paused;
+  }
+  
+  @keyframes cycle {
+	0% {
+	  top: 0px;
+	}
+	4% {
+	  top: 0px;
+	}
+	16% {
+	  top: 0px;
+	  opacity: 1;
+	  z-index: 0;
+	}
+	20% {
+	  top: 325px;
+	  opacity: 0;
+	  z-index: 0;
+	}
+	21% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+	50% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+	92% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: 0;
+	}
+	96% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	100% {
+	  top: 0px;
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes cycle2 {
+	0% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	16% {
+	  top: -325px;
+	  opacity: 0;
+	}
+	20% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	24% {
+	  top: 0px;
+	  opacity: 1;
+	}
+	36% {
+	  top: 0px;
+	  opacity: 1;
+	  z-index: 0;
+	}
+	40% {
+	  top: 325px;
+	  opacity: 0;
+	  z-index: 0;
+	}
+	41% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+	100% {
+	  top: -325px;
+	  opacity: 0;
+	  z-index: -1;
+	}
+  }
+/*----------          carousel end          ----------*/
 
 div.textimgindex {
 	position: absolute;
@@ -291,7 +427,7 @@ img.alternanceart {
 }
 
 title.alternance {
-	padding: 0px 20px;
+	padding: 20px 20px;
 	margin: 0px;
 	font-size: 30px;
 	font-weight: lighter;
@@ -300,7 +436,7 @@ title.alternance {
 
 
 title.alternanceart {
-	padding: 20px 20px;
+	padding: 0px 20px;
 	margin: 0px;
 	font-size: 30px;
 	font-weight: lighter;
@@ -317,8 +453,10 @@ p.alternance {
 	font-weight: lighter;
 }
 
-p.alternanceart {
-	padding: 0px 20px;
+p.alternanceart, 
+ul.alternanceart, 
+li.alternanceart {
+	padding: 10px 20px;
 	margin: 0px;
 	font-size: 20px;
 	font-weight: lighter;
@@ -367,7 +505,7 @@ title.conseils {
 
 
 title.conseilsart {
-	padding: 20px 20px;
+	padding: 0px 20px;
 	margin: 0px;
 	font-size: 30px;
 	font-weight: lighter;
@@ -384,8 +522,12 @@ p.conseils {
 	font-weight: lighter;
 }
 
-p.conseilsart {
-	padding: 0px 20px;
+p.conseilsart,
+h2.conseilsart,
+h3.conseilsart,
+ul.conseilsart,
+li.conseilsart {
+	padding: 10px 20px;
 	margin: 0px;
 	font-size: 20px;
 	font-weight: lighter;
@@ -404,6 +546,72 @@ a.conseils {
 
 /*----------          Paroles d'alternants          ----------*/
 
+div.paroles {
+	background-color: #FFF;
+	text-align: left;
+	margin: 10px 70px;
+	padding: 0px;
+}
+
+img.paroles {
+	width: 400px;
+	height: auto;
+}
+
+img.parolesart {
+	width: 50%;
+	height: auto;
+	display: block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 20px;
+}
+
+title.paroles {
+	padding: 20px 20px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: lighter;
+	display: inline-block;
+}
+
+
+title.parolesart {
+	padding: 0px 20px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: lighter;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+p.paroles {
+	padding: 0px 20px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+p.parolesart,
+h2.parolesart, 
+ul.parolesart, 
+li.parolesart {
+	padding: 10px 20px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 75%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+a.paroles {
+	color: #000;
+}
 
 /*----------          Contact          ----------*/
 
