@@ -12,11 +12,36 @@
 
 	<body>
 
+		<div class="container flex parolesalter">
+			
+			<a href="#Christophe" class="caseparoles">
+				<img class="parolesalter" src="medias/temoignage_1.jpg">
+				<title class="parolesalter">Christophe</title>
+				<p class="parolesalter">Développeur Androïd</p>
+			</a>
+			<a href="#Lamia" class="caseparoles">
+				<img class="parolesalter" src="medias/temoignage_2.jpg">
+				<title class="parolesalter">Lamia</title>
+				<p class="parolesalter">Développeuse d'application Python</p>
+			</a>
+			<a href="#Cécile" class="caseparoles">
+				<img class="parolesalter" src="medias/temoignage_3.jpg">
+				<title class="parolesalter">Cécile</title>
+				<p class="parolesalter">Chef de projet digital</p>
+			</a>
+			<a href="#Quentin" class="caseparoles">
+				<img class="parolesalter" src="medias/temoignage_4.jpg">
+				<title class="parolesalter">Quentin</title>
+				<p class="parolesalter">Développeur d'applications Front-End</p>
+			</a>
+
+		</div>
+
 
 	    <div class="container" id="Christophe">
 			<title class="parolesart">Christophe</title>
-			<p class="parolesart">Développeur Androïd</p>
-	    	<img src="medias/#.jpg" class="parolesart">
+			<p class="parolesalter">Développeur Androïd</p>
+	    	<img src="medias/temoignage_1.jpg" class="parolesart">
 			<p class="parolesart">
 				Christophe a 30 ans et s’est lancé dans l’alternance en janvier 2020. Il suit le parcours développeur Android d’OpenClassrooms en contrat d’apprentissage au sein d’une start 
 				up française. Il s’est prêté au jeu de nos questions pour nous en dire plus sur sa recherche d’alternance et partager ses bonnes vibes.
@@ -89,8 +114,8 @@
 		
 		<div class="container" id="Cécile">
 			<title class="parolesart">Cécile</title>
-			<p class="parolesart">Chef de projet digital</p>
-	    	<img src="medias/#.jpg" class="parolesart">
+			<p class="parolesalter">Chef de projet digital</p>
+	    	<img src="medias/temoignage_2.jpg" class="parolesart">
 			<p class="parolesart">
 				À 28 ans, Cécile est une ancienne intermittente de l’audiovisuel, diplômée d'un Master de communication spécialisé dans les industries audiovisuelles. Après avoir fait de 
 				la production télé pendant 3 ans après son diplôme et elle s’est reconvertie dans la gestion de projets digitaux. Depuis novembre 2019, elle suit en alternance le parcours 
@@ -143,8 +168,8 @@
 
 		<div class="container" id="Quentin">
 			<title class="parolesart">Quentin</title>
-			<p class="parolesart">Développeur d’application Frontend</p>
-	    	<img src="medias/#.jpg" class="parolesart">
+			<p class="parolesalter">Développeur d’application Frontend</p>
+	    	<img src="medias/temoignage_3.jpg" class="parolesart">
 			<p class="parolesart">
 				Quentin n’a que 20 ans mais <strong>c’est un autodidacte passionné de tech depuis de nombreuses années </strong>! En juin 2019, il s’inscrit en alternance au parcours 
 				Développeur d’application Frontend d’OpenClassrooms et trouve son entreprise Occitaline dans la foulée, en banlieue toulousaine. Il développe des applications web avec NodeJs 
@@ -179,8 +204,8 @@
 
 		<div class="container" id="Lamia">
 			<title class="parolesart">Lamia</title>
-			<p class="parolesart">Développeuse d’application Python</p>
-	    	<img src="medias/#.jpg" class="parolesart">
+			<p class="parolesalter">Développeuse d’application Python</p>
+	    	<img src="medias/temoignage_4.jpg" class="parolesart">
 			<p class="parolesart">
 				Après avoir travaillé en tant que commerciale, manager et conseillère pédagogique dans divers secteurs, <strong>Lamia décide à 29 ans de se lancer dans l’alternance</strong>, 
 				9 ans après avoir terminé ses études. Elle est actuellement <strong>en alternance dans une ESN sur le parcours développeur-se d’application Python d’OpenClassrooms.</strong> 

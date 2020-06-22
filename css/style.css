@@ -615,6 +615,65 @@ a.paroles {
 
 /*----------          Contact          ----------*/
 
+div.contact {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 40px 0px;
+}
+
+div.contactcase {
+	width: 50%;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+p.contact {
+	font-size: 28px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+img.contact {
+	width: 75%;
+	height: auto;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+form.formcontact {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+input.formcontact {
+	width: 50%;
+	height: auto;
+	padding: 10px;
+	margin: 10px 0px;
+	border: none;
+	font-weight: lighter;
+}
+
+textarea.formcontact {
+	border: none;
+	font-weight: lighter;
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+button.formcontact {
+	width: 200px;
+	padding: 10px;
+	margin: 10px 0px;
+	border: none;
+	background-color: #FFF;
+}
 
 
 
@@ -687,10 +746,111 @@ li.footer {
 }
 
 
-/*----------          x          ----------*/
+/*----------          Podcasts          ----------*/
+
+div.podcasts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 90%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 20px 0px; 
+}
+
+div.podcastint {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	position: relative;
+	width: 60%;
+}
+
+div.image_pres {
+	position: relative;
+	width: 40%;
+}
+
+div.logopodcasts {
+	height: 166px;
+	width: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	width: 100%;
+}
+
+title.podcasts {
+	font-size: 30px;
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
+	font-weight: lighter;
+}
+
+p.podcasts {
+	font-size: 18px;
+	padding: 10px 0px;
+	margin: 0px;
+	font-weight: lighter;
+}
+
+title.indispo {
+	font-size: 30px;
+	color: #999;
+	font-weight: lighter;
+	position: relative;
+	align-self: center;
+}
+
+img.logopod {
+	width: auto;
+	height: 166px;
+}
+
+img.podcastsg {
+	padding: 0px 20px;
+	width: 100%;
+	height: auto;
+}
 
 
-/*----------          x          ----------*/
+/*----------          Paroles d'alternants          ----------*/
+
+div.parolesalter {
+	width: 70%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+a.caseparoles {
+	width: 400px;
+	margin: 20px 60px;
+	color: #000;
+	background-color: #FFF;
+}
+
+img.parolesalter {
+	width: 400px;
+	height: auto;
+}
+
+title.parolesalter {
+	font-weight: lighter;
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+p.parolesalter {
+	font-weight: lighter;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
 
 
 /*----------          x          ----------*/
