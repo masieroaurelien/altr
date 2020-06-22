@@ -20,17 +20,17 @@
 				<p class="parolesalter">Développeur Androïd</p>
 			</a>
 			<a href="#Lamia" class="caseparoles">
-				<img class="parolesalter" src="medias/temoignage_2.jpg">
+				<img class="parolesalter" src="medias/temoignage_4.jpg">
 				<title class="parolesalter">Lamia</title>
 				<p class="parolesalter">Développeuse d'application Python</p>
 			</a>
 			<a href="#Cécile" class="caseparoles">
-				<img class="parolesalter" src="medias/temoignage_3.jpg">
+				<img class="parolesalter" src="medias/temoignage_2.jpg">
 				<title class="parolesalter">Cécile</title>
 				<p class="parolesalter">Chef de projet digital</p>
 			</a>
 			<a href="#Quentin" class="caseparoles">
-				<img class="parolesalter" src="medias/temoignage_4.jpg">
+				<img class="parolesalter" src="medias/temoignage_3.jpg">
 				<title class="parolesalter">Quentin</title>
 				<p class="parolesalter">Développeur d'applications Front-End</p>
 			</a>

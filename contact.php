@@ -44,7 +44,7 @@ if (isset($_POST['submit'])){
 					<input type="text" placeholder="Nom Prénom" name="name"  class="formcontact" />
 					<input type="mail" placeholder="Votre Mail" name="mail"  class="formcontact" />
 					<textarea placeholder="Votre Message" cols="12" rows="6" name="msg" class="formcontact" ></textarea>
-				<button type="submit" class="formcontact" name="submit" id="submit">send mail</button>
+					<button type="submit" class="formcontact" name="submit" id="submit">Envoyer ma question</button>
 				</form>
 			</div>
 		</div>

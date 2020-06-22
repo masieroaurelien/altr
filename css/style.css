@@ -15,7 +15,7 @@ a {
 	height: auto;
 	text-decoration: none;
 	list-style-type: none;
-	color: #FFF;
+	color: #000;
 }
 
 title {
@@ -229,10 +229,9 @@ img.index {
 
 div.textimgindex {
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%);
 	display: flex;
 	flex-direction: column;
 	align-self: flex-start;
@@ -309,7 +308,7 @@ img.projet {
 }
 
 img.case {
-	width: 100%;
+	width: 50%;
 	height: auto;
 }
 
@@ -325,9 +324,11 @@ div.members {
 }
 
 img.members {
-	width: 100%;
+	width: 75%;
 	height: auto;
 	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 img.linkedin {
@@ -468,6 +469,12 @@ li.alternanceart {
 
 a.alternance {
 	color: #000;
+	transition: .5s;
+}
+
+a.alternance :hover {
+	width: 500px;
+	transition: .5s;
 }
 
 /*----------          Conseils          ----------*/
@@ -477,7 +484,7 @@ div.conseils {
 	text-align: left;
 	margin: 10px 70px;
 	padding: 0px;
-	width: 600px;
+	width: 500px;
 }
 
 img.conseils {
@@ -539,6 +546,12 @@ li.conseilsart {
 
 a.conseils {
 	color: #000;
+	transition: 2s;
+}
+
+a.conseils :hover {
+	width: 600px;
+	transition: 2s;
 }
 
 /*----------          Podcast          ----------*/
@@ -745,6 +758,10 @@ li.footer {
 	list-style-type: none;
 }
 
+a.footer {
+	color: #FFF;
+}
+
 
 /*----------          Podcasts          ----------*/
 
@@ -779,6 +796,8 @@ div.logopodcasts {
 	flex-wrap: nowrap;
 	flex-direction: row;
 	width: 100%;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
 title.podcasts {
@@ -829,10 +848,16 @@ a.caseparoles {
 	margin: 20px 60px;
 	color: #000;
 	background-color: #FFF;
+	transition: .5s;
+}
+
+a.caseparoles :hover {
+	width: 500px;
+	transition: .5s;
 }
 
 img.parolesalter {
-	width: 400px;
+	width: 100%;
 	height: auto;
 }
 
