@@ -12,7 +12,7 @@
 
 	<body>
 
-		<div class="container flex">
+		<div class="container flex conseilsg">
 			
 			<a href="#article1" class="conseils">
 				<div class="case conseils">

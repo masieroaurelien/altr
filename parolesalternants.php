@@ -15,24 +15,32 @@
 		<div class="container flex parolesalter">
 			
 			<a href="#Christophe" class="caseparoles">
-				<img class="parolesalter" src="medias/temoignage_1.jpg">
-				<title class="parolesalter">Christophe</title>
-				<p class="parolesalter">Développeur Androïd</p>
+				<div class="case paroles">
+					<img class="parolesalter" src="medias/temoignage_1.jpg" />
+					<title class="parolesalter">Christophe</title>
+					<p class="parolesalter">Développeur Androïd</p>
+				</div>
 			</a>
 			<a href="#Lamia" class="caseparoles">
-				<img class="parolesalter" src="medias/temoignage_4.jpg">
-				<title class="parolesalter">Lamia</title>
-				<p class="parolesalter">Développeuse d'application Python</p>
+				<div class="case paroles">
+					<img class="parolesalter" src="medias/temoignage_4.jpg">
+					<title class="parolesalter">Lamia</title>
+					<p class="parolesalter">Développeuse d'application Python</p>
+				</div>
 			</a>
 			<a href="#Cécile" class="caseparoles">
-				<img class="parolesalter" src="medias/temoignage_2.jpg">
-				<title class="parolesalter">Cécile</title>
-				<p class="parolesalter">Chef de projet digital</p>
+				<div class="case paroles">
+					<img class="parolesalter" src="medias/temoignage_2.jpg">
+					<title class="parolesalter">Cécile</title>
+					<p class="parolesalter">Chef de projet digital</p>
+				</div>
 			</a>
 			<a href="#Quentin" class="caseparoles">
-				<img class="parolesalter" src="medias/temoignage_3.jpg">
-				<title class="parolesalter">Quentin</title>
-				<p class="parolesalter">Développeur d'applications Front-End</p>
+				<div class="case paroles">
+					<img class="parolesalter" src="medias/temoignage_3.jpg">
+					<title class="parolesalter">Quentin</title>
+					<p class="parolesalter">Développeur d'applications Front-End</p>
+				</div>
 			</a>
 
 		</div>

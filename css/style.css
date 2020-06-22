@@ -487,6 +487,13 @@ div.conseils {
 	width: 500px;
 }
 
+div.conseilsg {
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 img.conseils {
 	width: 100%;
 	height: auto;
@@ -553,8 +560,6 @@ a.conseils :hover {
 	width: 600px;
 	transition: 2s;
 }
-
-/*----------          Podcast          ----------*/
 
 
 /*----------          Paroles d'alternants          ----------*/
@@ -837,7 +842,19 @@ img.podcastsg {
 /*----------          Paroles d'alternants          ----------*/
 
 div.parolesalter {
-	width: 70%;
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	align-content: center;
+}
+
+div.paroles {
+	background-color: #FFF;
+	text-align: left;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
 	position: relative;
 	left: 50%;
 	transform: translate(-50%);
@@ -845,9 +862,9 @@ div.parolesalter {
 
 a.caseparoles {
 	width: 400px;
-	margin: 20px 60px;
+	height: auto;
 	color: #000;
-	background-color: #FFF;
+	margin: 20px 60px;
 	transition: .5s;
 }
 
