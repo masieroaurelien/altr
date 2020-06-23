@@ -71,7 +71,7 @@
 			
 				<img src="medias/toux.png" class="dt">
 
-			<div class="dt1">
+			<div class="dt">
 
 				<title class="dt">Une toux qui mêne à tout</title>
 

@@ -8,7 +8,6 @@ body, html {
 	font-family: 'Roboto', sans-serif;
 	color: #000;
 	background-color: #F4F3F3;
-
 }
 
 a {
@@ -137,7 +136,7 @@ div.case {
 
 title.index {
 	display: flex;
-	justify-content: center;
+	text-align: center;
 	font-size: 40px;
 	font-weight: lighter;
 	padding-bottom: 20px;
@@ -244,14 +243,6 @@ div.dt {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 40%;
-}
-
-div.dt1 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -25%);
 	width: 40%;
 }
 
@@ -653,7 +644,7 @@ form.formcontact {
 }
 
 input.formcontact {
-	width: 50%;
+	width: 100%;
 	height: auto;
 	padding: 10px;
 	margin: 10px 0px;
@@ -666,6 +657,7 @@ textarea.formcontact {
 	font-weight: lighter;
 	padding: 10px;
 	margin: 10px 0px;
+	width: 100%;
 }
 
 button.formcontact {
@@ -892,3 +884,203 @@ a.footer {
 	  z-index: -1;
 	}
   }
+
+
+
+/*----------          Responsive          ----------*/
+
+@media only screen and (max-device-width:480px) {
+
+	nav.navbar {
+		height: 180px;
+	}
+
+	ul.navbar {
+		flex-direction: column;
+		flex-wrap: wrap;
+		text-align: center;
+		font-size: 40px;
+	}
+
+	img.logo {
+		width: 400px;
+	}
+
+	img.minilogo {
+		height: 90px;
+	}
+
+	title.index {
+		font-size: 60px;
+		text-align: center;
+	}
+
+	img.projet {
+		left: 20%;
+	}
+
+	img.dt {
+		width: 60%;
+		opacity: .3;
+	}
+
+	div.dt {
+		width: 75%;
+	}
+
+	div.case {
+		width: 100%;
+	}
+
+	img.case {
+		width: 75%;
+	}
+
+	p.index {
+		font-size: 24px;
+		text-align: center;
+	}
+
+	p.indexpres {
+		font-size: 40px;
+		font-weight: 300;
+	}
+
+	div.members {
+		width: 60%;
+	}
+
+	title.members {
+		font-size: 40px;
+	}
+
+	div.disclaimer {
+		width: 80%;
+	}
+
+	p.disclaimer {
+		font-size: 18px;
+	}
+
+	img.footer {
+		left: 40%;
+		width: 50%;
+	}
+
+	div.alternance {
+	    margin: 0px 0px 20px 0px;
+	    padding: 0px;
+	    display: flex;
+	    flex-direction: column;
+	    width: 100%;
+	    position: relative;
+	    left: 50%;
+	    transform: translate(-50%);
+	}
+
+	title.alternance {
+		font-size: 40px;
+	}
+
+	p.alternance {
+		font-size: 30px;
+	}
+
+	img.alternance {
+		width: 100%;
+	}
+
+	img.alternanceart {
+		width: 75%;
+	}
+
+	div.conseils {
+		margin: 20px 0px;
+		width: 100%;
+		height: auto;
+	}
+
+	a.conseils {
+		width: 100%;
+		height: auto;
+	}
+
+	a.conseils :hover {
+		width: 100%;
+	}
+
+	title.conseils {
+		font-size: 40px;
+	}
+
+	img.conseilsart {
+		width: 75%;
+	}
+
+	div.podcastint {
+		width: 100%;
+	}
+
+	title.podcasts {
+		margin-top: 20px;
+	}
+
+	div.image_pres {
+		display: none;
+	}
+
+	div.parolesalter {
+		width: 100%;
+	}
+
+	a.caseparoles {
+		width: 75%;
+	}
+
+	title.parolesalter {
+		font-size: 50px;
+	}
+
+	p.parolesalter {
+		font-size: 40px;
+	}
+
+	title.parolesart {
+		font-size: 90px;
+	}
+
+	img.parolesart {
+		width: 75%;
+		padding: 0px;
+	}
+
+	div.contact {
+		flex-wrap: wrap;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%);
+	}
+
+	img.contact {
+		width: 100%;
+	}
+
+	div.contactcase {
+		width: 100%;
+
+	}
+
+	p.contact {
+		font-size: 34px;
+	}
+
+	input.formcontact, textarea.formcontact, button.formcontact {
+		width: 100%;
+		font-size: 24px;
+	}
+
+
+
+
+
+}
