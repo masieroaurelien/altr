@@ -8,7 +8,7 @@
 					<a href="alternance.php" class="footer"><li class="footer">Alternance</li></a>
 					<a href="conseils.php" class="footer"><li class="footer">Conseils</li></a>
 					<a href="podcasts.php" class="footer"><li class="footer">Podcasts</li></a>
-					<a href="paroleslaternants.php" class="footer"><li class="footer">Paroles d'alternants</li></a>
+					<a href="parolesalternants.php" class="footer"><li class="footer">Paroles d'alternants</li></a>
 					<a href="contact.php" class="footer"><li class="footer">Contact</li></a>
 			</ul>
 			<ul class="footer">
