@@ -21,9 +21,11 @@ if (isset($_POST['submit'])){
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-	    <title>ALT-R - Contact</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
+		<title>ALT-R - Contact</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Blog dirigé aux étudiants en reconversion professionnelle qui sont dans la recherche d'une alternance dans le secteur digital">
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
 	</head>
 
 	<header>
@@ -31,7 +33,7 @@ if (isset($_POST['submit'])){
 	</header>
 
 	<body>
-
+		
 		<div class="container contact">
 			<div class="contactcase">
 				<img class="contact" src="medias/contact.jpg">
@@ -50,6 +52,5 @@ if (isset($_POST['submit'])){
 		</div>
 
 	</body>
-
 	<?php include 'include/footer.php'; ?>
 </html>

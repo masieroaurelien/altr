@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-	    <title>ALT-R - Conseils</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
+		<title>ALT-R - Conseils</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Blog dirigé aux étudiants en reconversion professionnelle qui sont dans la recherche d'une alternance dans le secteur digital">
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
 	</head>
 
 	<header>
@@ -45,6 +47,7 @@
 		</div>
 
 		<div class="container" id="article1"> <!-- article 1 -->
+
 			<title class="conseilsart">Les meilleures startégies pour décrocher une alternance</title>
 			<img src="medias/article1.jpg" class="conseilsart">
 			<p class="conseilsart">
@@ -61,7 +64,7 @@
 				d’organisation, de remise en question, d’espoirs et de doutes. 
 			</p>
 			
-			<h2 class="conseilsart">1. Adopte le bon état d’esprit</h2>
+			<h2 class="conseilsart"><strong>1. Adopte le bon état d’esprit</strong></h2>
 			<p class="conseilsart">
 				C’est un fait, il y a <strong>beaucoup de concurrence sur les postes en alternance</strong>. En 2019, on comptait 491 000 apprentis en France. C’est <strong>18% des étudiants du 
 				supérieur</strong> et depuis ces dernières années, ces chiffres sont <strong>en constante augmentation</strong> grâce à un gros travail de démocratisation de l’alternance.
@@ -90,7 +93,7 @@
 				la recherche d’alternance</strong>. 
 			</p>
 
-			<h2 class="conseilsart">2. Décris ton alternance idéale de façon ultra détaillée</h2>
+			<h2 class="conseilsart"><strong>2. Décris ton alternance idéale de façon ultra détaillée</strong></h2>
 			<p class="conseilsart">
 				Quand on cherche un job, il y a ce qu’on idéalise, ce que l’on veut vraiment et ce qui existe dans la vraie vie réelle. Pour commencer par trinquer avec un verre à moitié plein, 
 				prends le temps d’écrire noir sur blanc la liste la plus exhaustive possible des différentes composantes de ton alternance idéale, en laissant librement parler tes envies les 
@@ -152,7 +155,7 @@
 				<em class="conseilsart">« The only thing worse than being blind is having sight but no vision » </em>C’est signé Helen Keller, sourde et aveugle depuis sa petite enfance & 
 				première personne handicapée à avoir obtenu un diplôme universitaire aux États-Unis.
 			</p>
-			<h2 class="conseilsart">3. Réponds aux annonces avec méthode, audace et malice</h2>
+			<h2 class="conseilsart"><strong>3. Réponds aux annonces avec méthode, audace et malice</strong></h2>
 			<p class="conseilsart">Pour postuler à des offres de façon organisée et efficace, il faut : </p>
 			<ul class="conseilsart">
 				<li class="conseilsart">Bien connaître <strong>les sites d’emplois</strong> adaptés à ton métier, ton secteur et ta zone géographique. Certains sites sont hyper populaires dans 
@@ -186,7 +189,7 @@
 				<li class="conseilsart">Si elle est demandée, ma lettre de motivation est pertinente et intéressante à lire pour un recruteur. Si toi-même tu bailles en la relisant, imagine la 
 					réaction d’un inconnu. </li> 	
 			</ul>
-			<h2 class="conseilsart">4. Aie le culot de tenter les candidatures spontanées</h2>
+			<h2 class="conseilsart"><strong>4. Aie le culot de tenter les candidatures spontanées</strong></h2>
 			<p class="conseilsart">
 				Tu as toujours ta feuille sur laquelle tu as décrit ton alternance de rêve ? Hop, attrape-la et démarre une autre liste : celle des boîtes que tu aimes pour X ou Y raisons. 
 				Elles peuvent être multiples : 
@@ -219,7 +222,7 @@
 				pourront suivre ton parcours et qui sait, <strong>des opportunités pourront se présenter à l’avenir</strong>, une fois ton diplôme en poche !
 			</p>
 
-			<h2 class="conseilsart">5. Fais de LinkedIn ta meilleure arme</h2>
+			<h2 class="conseilsart"><strong>5. Fais de LinkedIn ta meilleure arme</strong></h2>
 			<p class="conseilsart">
 				Si tu te marres parce que toi, tu as déjà un profil LinkedIn au top : ne skippe pas ce paragraphe trop vite. Good job pour ton profil, mais <strong>est-ce que tu es actif ?</strong>
 			</p>
@@ -247,7 +250,7 @@
 				<strong>Dans le meilleur du meilleur des cas</strong>, tu obtiens des contacts utiles pour booster ta recherche et ton réseautage. Alors là, c’est vraiment tout bénéf’.
 			</p>
 			
-			<h2 class="conseilsart">6. Mobilise ton réseau de la vraie vie</h2>
+			<h2 class="conseilsart"><strong>6. Mobilise ton réseau de la vraie vie</strong></h2>
 			<p class="conseilsart">
 				Au delà des réseaux sociaux, il reste les vrais gens de la vraie vie. En cette période de confinement et de distanciation sociale, on a un peu oublié leur présence mais si, si 
 				: ils sont toujours là ! 
@@ -287,6 +290,7 @@
 		</div>
 
 		<div class="container" id="article2"> <!-- article 2 -->
+
 			<title class="conseilsart">Perfectionner son CV et sa lettre de motivation pour postuler à une alternance</title>
 			<img src="medias/article2.jpg" class="conseilsart">
 			<p class="conseilsart">
@@ -311,7 +315,7 @@
 				basiques de ces 2 exercices et tu cherches plutôt <strong>des idées pour pimper tes candidatures et les rendre plus performantes</strong>. Surtout si tu te lances en alternance 
 				dans la tech ou le digital et pour un projet de reconversion professionnelle, ces conseils te sont tout particulièrement destinés.
 			</p>
-			<h2 class="conseilsart">1. Pense « compétences »</h2>
+			<h2 class="conseilsart"><strong>1. Pense « compétences »</strong></h2>
 			<p class="conseilsart">L’alternance a cette spécificité de concerner deux types de profil : </p>
 			<ul class="conseilsart">
 				<li class="conseilsart">Le débutant post-bac qui n’a pas ou peu d’expérience professionnelle.</li>
@@ -355,7 +359,7 @@
 				d’<strong>être court et efficace</strong>, tu pourras développer davantage dans ta lettre de motivation. Si tu détailles ces compétences en bullet points dans tes 
 				précédentes expériences pro, et non dans une rubrique dédiée, elles ne seront pas lues car l’intitulé du poste n’aura pas laissé au recruteur la chance de s’y attarder.
 			</p>
-			<h2 class="conseilsart">2. Montre ta personnalité</h2>
+			<h2 class="conseilsart"><strong>2. Montre ta personnalité</strong></h2>
 			<p class="conseilsart">
 				Des compétences bien présentées, bien valorisées et bien argumentées, c’est un premier gros plus pour ta candidature qui te permettra d’être repéré par un recruteur. 
 				Ce qui risque de se produire néanmoins, c’est que ce même recruteur reçoive plus de 100 candidatures et que <strong>75% d’entre elles présentent toutes des compétences 
@@ -423,7 +427,7 @@
 				<strong>Des templates accessibles et gratuits existent</strong>. Les meilleurs sont sans doute sur l’outil en ligne Canva. Même sans compétence en design, on peut facilement 
 				remanier un modèle de CV à sa sauce, en choisissant les couleurs, la police, l’ordre des rubriques etc. Comme pour tout, il faut <strong>rester simple et efficace</strong>. 
 			</p>
-			<h2 class="conseilsart">3. Soigne les petits détails</h2>
+			<h2 class="conseilsart"><strong>3. Soigne les petits détails</strong></h2>
 			<p class="conseilsart">
 				Pas pour toi, mais pour les recruteurs. Ta candidature c’est comme un bon café. Les petits détails, c’est les petits biscuits à côté de la tasse. On ne les demande pas, 
 				mais quand ils sont là, ça fait toujours plaisir et c’est plus savoureux.
@@ -473,9 +477,11 @@
 			<p class="conseilsart">
 				<em>Rédigé par Amélie Bichon-Fortin <br> Dernière mise à jour : mai 2020</em>
 			</p>
+
 		</div>
 
 		<div class="container" id="article3"> <!-- article 3 -->
+
 			<title class="conseilsart">Réussir son entretien d’embauche pour une alternance</title>
 			<img src="medias/article3.jpg" class="conseilsart">
 			<p class="conseilsart">
@@ -500,7 +506,7 @@
 			<p class="conseilsart">
 				On fait le point sur ces différentes étapes et comment s’armer pour les appréhender sereinement, en toute confiance ! 
 			</p>
-			<h2 class="conseilsart">1. Prépare un pitch en béton pour la présélection par téléphone</h2>
+			<h2 class="conseilsart"><strong>1. Prépare un pitch en béton pour la présélection par téléphone</strong></h2>
 			<p class="conseilsart">
 				Génial ! Ton téléphone sonne. Règle n°1 : <strong>ne décroche pas</strong>. Ce n’est même pas une blague. En général, il vaut mieux que le recruteur laisse un message 
 				sur ton répondeur. Cela te permettra de filer sur l’annonce, l’étudier sous toutes ses coutures et <strong>structurer au calme et à tête reposée ta réponse à la 
@@ -536,7 +542,7 @@
 				La suite de l’appel se portera sur <strong>des questions très généralistes</strong>, comme ta date de disponibilité pour le démarrage, ta mobilité géographique ou encore 
 				les modalités de ton alternance. Sois sûr(e) de connaître toutes ces informations (type de contrat, rythme de l’alternance etc.) ou de savoir comment les obtenir. 
 			</p>
-			<h2 class="conseilsart">2. Reste toi-même tout au cours du processus</h2>
+			<h2 class="conseilsart"><strong>2. Reste toi-même tout au cours du processus</strong></h2>
 			<p class="conseilsart">
 				C’est un conseil tout bête mais que beaucoup oublient : reste toi-même. Un conseil tout bête, mais pourtant le meilleur qu’on ait en stock. En jouant au candidat idéal, 
 				ça finira par te porter préjudice à un moment ou à un autre. On a tous en tête ce running gag de la personne qui s’invente une maîtrise bilingue de l’anglais sur son CV 
@@ -554,7 +560,7 @@
 			<p class="conseilsart">
 				Bon par contre comme toujours, il y a des exceptions : si tu es de nature « toujours à la bourre », le jour de l’entretien, fais un effort et arrive quelques minutes en avance. 
 			</p>
-			<h2 class="conseilsart">3. Pose toujours des questions en entretien</h2>
+			<h2 class="conseilsart"><strong>3. Pose toujours des questions en entretien</strong></h2>
 			<p class="conseilsart">
 				Qu’il soit physique ou en visio, un entretien se déroule souvent de cette façon : 
 			</p>
@@ -606,9 +612,11 @@
 			<p class="conseilsart">
 				<em>Rédigé par Amélie Bichon-Fortin <br> Dernière mise à jour : mai 2020</em>
 			</p>
+
 		</div>
 
 		<div class="container" id="article4"> <!-- article 4 -->
+
 			<title class="conseilsart">Garder la motivation pendant sa recherche d’alternance</title>
 			<img src="medias/article4.jpg" class="conseilsart">
 			<p class="conseilsart">
@@ -626,7 +634,7 @@
 				Bref, <strong>tu doutes de tout, et surtout de toi</strong>. La bonne nouvelle, c’est que tous les alternants ou presque sont passés par là. Cette démoralisation, elle est 
 				nécessaire pour prendre du recul, faire le point et même s’armer de confiance. Alors, qu’est-ce qu’on fait quand on est en  pleine phase de doute ?
 			</p>
-			<h2 class="conseilsart">1. Fais autre chose et reviens en force</h2>
+			<h2 class="conseilsart"><strong>1. Fais autre chose et reviens en force</strong></h2>
 			<p class="conseilsart">
 				Quand vraiment tu en as ras-la-casquette de ces candidatures et que <strong>tu te sens totalement démotivé(e) : arrête, autorise-toi un break.</strong>
 			</p>
@@ -647,7 +655,7 @@
 				un planning sympa, avec différentes étapes autour de vos candidatures, mais prévoyez aussi des temps pour apprendre de nouvelles choses sur votre futur métier, sans oublier des 
 				pauses avec vos loisirs ! »</em>
 			</p>
-			<h2 class="conseilsart">2. Pars à la recherche de feedbacks</h2>
+			<h2 class="conseilsart"><strong>2. Pars à la recherche de feedbacks</strong></h2>
 			<p class="conseilsart">
 				On a beau y mettre toute la meilleure volonté du monde, <strong>on commet parfois certaines erreurs qui peuvent freiner les recruteurs</strong>. Si on a du mal à mettre le doigt 
 				sur ce qui cloche, il n’y a pas de honte à demander de l’aide !
@@ -672,7 +680,7 @@
 				Ne sous-estimez pas cet outil précieux, travaillez votre profil pour en faire votre meilleure vitrine possible et partez à la rencontre de vos futurs collègues en engageant 
 				un maximum de conversations ! Prenez ce risque de parler à quelqu'un qui connaît quelqu'un qui cherche quelqu'un avec votre profil ! »</em>
 			</p>
-			<h2 class="conseilsart">3. Améliore encore et encore tes candidatures</h2>
+			<h2 class="conseilsart"><strong>3. Améliore encore et encore tes candidatures</strong></h2>
 			<p class="conseilsart">
 				Après avoir collecté tous ces feedbacks d’horizons différents, tu auras reçu <strong>plusieurs critiques négatives comme positives sur tes candidatures</strong>. Certes, il 
 				va falloir bosser pour améliorer le négatif, mais n’oublie pas de <strong>te nourrir du positif pour garder le moral et t’appuyer sur tes points forts.</strong>
@@ -708,6 +716,7 @@
 			<p class="conseilsart">
 				<em>Rédigé par Amélie Bichon-Fortin <br> Dernière mise à jour : mai 2020</em>
 			</p>
+			
 		</div>
 
 	</body>
