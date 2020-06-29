@@ -188,7 +188,11 @@ div.members {
 }
 
 img.members {
+<<<<<<< HEAD
 	width: 90%;
+=======
+	width: 60%;
+>>>>>>> ea5ef5484ee956ff3ead21fd32ceacd3f69559f7
 	height: auto;
 	position: relative;
 	left: 50%;
