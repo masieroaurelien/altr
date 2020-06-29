@@ -22,7 +22,7 @@
 			</div>
 		</div>
 
-		<div class="slideshow-container">	<!-- carousel -->	
+		<div class="slideshow-container">	<!-- carousel --> 
 	        <div class="mySlides fade">
 	          	<img src="medias/carousel1.jpg" style="width:100%">
 	          	<div class="text">Tu veux rejoindre l’univers tech & digital en passant par la case alternance ? <br> Tu as ouvert le bon onglet et celui-ci, tu peux le mettre en favori.</div>
@@ -33,16 +33,16 @@
 	          	<div class="text">ALT-R te donne accès gratuitement aux conseils et aux témoignages de ceux qui <br> sont aussi passés par là pour t’aider à trouver une alternance.</div>
 			</div>     
 			 	
-        	<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!-- Next and previous buttons -->
+        	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>  <!-- Next and previous buttons --> 
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>	
 		</div>
 
 		<br>  
 
         <div style="text-align:center">
-        	<span class="dot" onclick="currentSlide(1)"></span> <!-- The dots/circles -->
+        	<span class="dot" onclick="currentSlide(1)"></span>  <!-- The dots/circles --> 
         	<span class="dot" onclick="currentSlide(2)"></span>
-		</div>			
+		</div>
 
 		<div class="container">
 			<title class="index">Le Projet ALT-R</title>
