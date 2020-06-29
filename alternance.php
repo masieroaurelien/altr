@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-	    <title>ALT-R - Alternance</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
+		<title>ALT-R - Alternance</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Blog dirigé aux étudiants en reconversion professionnelle qui sont dans la recherche d'une alternance dans le secteur digital">
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
 	</head>
 
 	<header>
@@ -13,18 +15,19 @@
 	<body>
 
 		<div class="container flex">
+			
 			<a href="#alternance" class="alternance">
 				<div class="case alternance">
 					<img src="medias/alternance_alternance.jpg" class="alternance">
 						<title class="alternance">Alternance</title>
-						<p class="alternance">L'alternance, c'est une nouvelle vie qui commence !</p>
+						<p class="alternance">L'alternance, une nouvelle vie commence !</p>
 				</div>
 			</a>
 			<a href="#contrats" class="alternance">
 				<div class="case alternance">
 					<img src="medias/alternance_contrats.jpg" class="alternance"></img>
 						<title class="alternance">Contrats</title>
-						<p class="alternance">Il existe 2 types de contrats en alternance !</p>
+						<p class="alternance">Deux types de contrats en alternance !</p>
 				</div>
 			</a>
 			<a href="#avantages" class="alternance">
@@ -34,13 +37,15 @@
 						<p class="alternance">Pour l'alternant et pour l'employeur !</p>
 				</div>
 			</a>
+
 		</div>
 
 		<div class="container" id="alternance">
+
 			<title class="alternanceart">Qu'est ce que l'alternance?</title>
 			<img src="medias/alternance_alternance.jpg" class="alternanceart">
 			<p class="alternanceart">
-				L'alternance, c'est une nouvelle vie qui commence!
+				L'alternance, c'est une nouvelle vie qui commence !
 			</p>
 			<p class="alternanceart"> 
 				<strong>Tu seras salarié dès ton premier jour</strong>, un salarié en formation certes, mais un salarié à part entière. Désormais,ton temps sera partagé entre ton lieu de 
@@ -68,9 +73,11 @@
 				Certaines régions peuvent aussi proposer <strong>des aides à la mobilité</strong> pour financer une partie de tes frais de transport, voire les frais liés à un déménagement 
 				pour une alternance.
 			</p> 
+
 		</div>
 
 		<div class="container" id="contrats">
+
 			<title class="alternanceart">Les 2 contrats d’alternance</title>
 			<img src="medias/alternance_contrats.jpg" class="alternanceart"></img>
 			<p class="alternanceart">
@@ -101,10 +108,12 @@
 					<li class="alternanceart"><strong>Durée :</strong> De 6 mois à 1 an, voire 3 ans dans certains cas. La durée de la formation représente entre 15 à 25 % de la durée du contrat, 
 						sans pouvoir être inférieure à 150 heures, sauf dérogation de branche.</li>
     				<li class="alternanceart"><strong>Rémunération :</strong> Variable en fonction de l’âge de l’alternant et du niveau de sa formation initiale.</li>
-    			</ul>
+				</ul>
+				
 		</div>
 
 		<div class="container" id="avantages">
+
 			<title class="alternanceart">Les avantages de l'alternance</title>
 			<img src="medias/alternance_avantages.jpg" class="alternanceart"></img>
 			<p class="alternanceart">Pour l'alternant:</p>
@@ -125,6 +134,7 @@
 			<p class="alternanceart">
 				<a href=https://www.alternance.emploi.gouv.fr/portail_alternance>Pour plus d'information vous pouvez consulter ici !</a>
 			</p>
+
 		</div>
 
 	</body>

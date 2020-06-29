@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-	    <title>ALT-R - Podcasts</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
+		<title>ALT-R - Podcasts</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Blog dirigé aux étudiants en reconversion professionnelle qui sont dans la recherche d'une alternance dans le secteur digital">
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
 	</head>
 
 	<header>
@@ -51,6 +53,5 @@
 		</div>
 
 	</body>
-
 	<?php include 'include/footer.php'; ?>
 </html>
