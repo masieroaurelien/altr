@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-	    <title>ALT-R - Paroles d'alternants</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
+		<title>ALT-R - Paroles d'alternants</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Blog dirigé aux étudiants en reconversion professionnelle qui sont dans la recherche d'une alternance dans le secteur digital">
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- feuille de style -->
 	</head>
 
 	<header>
@@ -16,7 +18,7 @@
 			
 			<a href="#Christophe" class="caseparoles">
 				<div class="case paroles">
-					<img class="parolesalter" src="medias/temoignage_1.jpg" />
+					<img class="parolesalter" src="medias/temoignage_1.jpg">
 					<title class="parolesalter">Christophe</title>
 					<p class="parolesalter">Développeur Androïd</p>
 				</div>
@@ -45,8 +47,8 @@
 
 		</div>
 
-
 	    <div class="container" id="Christophe">
+
 			<title class="parolesart">Christophe</title>
 			<p class="parolesalter">Développeur Androïd</p>
 	    	<img src="medias/temoignage_1.jpg" class="parolesart">
@@ -54,7 +56,7 @@
 				Christophe a 30 ans et s’est lancé dans l’alternance en janvier 2020. Il suit le parcours développeur Android d’OpenClassrooms en contrat d’apprentissage au sein d’une start 
 				up française. Il s’est prêté au jeu de nos questions pour nous en dire plus sur sa recherche d’alternance et partager ses bonnes vibes.
 			</p>
-    		<h2 class="parolesart">Ta recherche d’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ta recherche d’alternance ?</strong></h2>
     		<p class="parolesart">
 				Je me suis inscrit sur plusieurs sites de recherche d’emploi, mais ceux qui m’ont donné le plus de résultats concluants sont LinkedIn et Welcome To The Jungle. J’ai commencé 
 				mes recherches d’alternance début décembre 2019, en même temps que mon inscription chez OpenClassrooms.
@@ -67,13 +69,13 @@
 				J’ai eu 3 entretiens téléphoniques, dont 2 ont débouché sur des entretiens physiques au bout d’un mois de recherche. <strong>Même après la signature de mon contrat, j’ai 
 				continué à recevoir d’autres offres et propositions d’entretien.</strong>
 			</p> 
-			<h2 class="parolesart">Ton ressenti pendant cette recherche d’alternance ?</h2>
+			<h2 class="parolesart"><strong>Ton ressenti pendant cette recherche d’alternance ?</strong></h2>
 			<p class="parolesart">
 				J’ai principalement ressenti beaucoup de frustration car je ne recevais aucune réponse ou réponse favorable de la part des employeurs. Cependant, cela ne m’a pas empêché 
 				de persévérer dans mes recherches et de finalement trouver une alternance qui correspondait à mes aspirations et à mes besoins du moment.
 			</p>
 
-    		<h2 class="parolesart">Ton expérience de l’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ton expérience de l’alternance ?</strong></h2>
     		<p class="parolesart">Les bénéfices que j’en tire sont multiples :</p>
     		<ul class="parolesart">
     			<li class="parolesart">Un salaire.</li>
@@ -90,7 +92,7 @@
 				& les périodes de rush à gérer du mieux possible). Je peux découvrir et perfectionner mes connaissances mais également les technologies utilisées par l’entreprise, adopter 
 				la politique de l’entreprise et identifier ses besoins.
 			</p>
-    		<h2 class="parolesart">Tes conseils pour les aspirants alternants ?</h2>
+    		<h2 class="parolesart"><strong>Tes conseils pour les aspirants alternants ?</strong></h2>
     		<p class="parolesart">
 				J’ai principalement suivi les conseils suggérés par mon école OpenClassrooms concernant la recherche d’alternance, à savoir :
 			</p>
@@ -121,6 +123,7 @@
 		</div>
 		
 		<div class="container" id="Cécile">
+
 			<title class="parolesart">Cécile</title>
 			<p class="parolesalter">Chef de projet digital</p>
 	    	<img src="medias/temoignage_2.jpg" class="parolesart">
@@ -130,7 +133,7 @@
 				« Chef de projet digital » d’OpenClassrooms et est en poste chez Phenix Technologies (4 jours par semaine en entreprise, 1 jour en formation). Elle a accepté de revenir sur 
 				sa recherche d’alternance, qu’elle a abordé avec sérénité et méthode.
 			</p>
-    		<h2 class="parolesart">Ta recherche d’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ta recherche d’alternance ?</strong></h2>
     		<p class="parolesart">
 				J’ai trouvé mon alternance en 2 mois, accompagnée d’un coach OpenClassrooms. J’ai trouvé mon poste actuel en répondant à une annonce publiée par mon école. J’ai du 
 				envoyer environ 40 candidatures. Dans le lot, <strong>beaucoup de candidatures spontanées</strong> car il y avait très peu d'annonces à cette période et je les 
@@ -144,7 +147,7 @@
 				J’ai finalement choisi l’offre publiée par mon école pour être plus sereine dans ma première année de formation. C’était un contrat d'un an renouvelable, sur les 2 
 				nécessaires pour finir le parcours.
 			</p>
-    		<h2 class="parolesart">Ton ressenti pendant cette recherche d’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ton ressenti pendant cette recherche d’alternance ?</strong></h2>
     		<p class="parolesart">
 				J’ai ressenti trop de pression de la part d’OpenClassrooms sur le nombre de candidatures à effectuer (25 par semaine). Je ne l’ai pas respecté car cela m’était impossible 
 				pour faire de bonnes candidatures.
@@ -157,24 +160,26 @@
 				<strong>Les retours sur mes candidatures étaient plutôt bons</strong>, même quand les entreprises n’étaient pas en recherche, donc je ne me suis jamais vraiment inquiétée 
 				de ne pas trouver.
 			</p>
-    		<h2 class="parolesart">Ton expérience de l’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ton expérience de l’alternance ?</strong></h2>
     		<p class="parolesart">
 				<strong>L’alternance me permet de rester connectée au réel de la vie active.</strong> Cela me permet de mettre plus de concrétiser les projets sur lesquels je travaille en 
 				cours. Un exemple tout simple : quand dans un projet il est demandé de rédiger un mail à un développeur sans le brusquer, je vois très bien de quoi il s’agit. Sans l’alternance, 
 				je n’aurais peut-être pas forcément compris pourquoi cette précision. <strong>L’alternance me permet d’apprendre toute la partie relationnelle et travail en équipe du métier
 				</strong>, qu’il n’est pas vraiment possible d’apprendre en formation.
 			</p>
-    		<h2 class="parolesart">Tes conseils pour les aspirants alternants?</h2>
+    		<h2 class="parolesart"><strong>Tes conseils pour les aspirants alternants?</strong></h2>
     		<ul class="parolesart">
     			<li class="parolesart"><strong>Privilégier la qualité à la quantité</strong> des candidatures envoyées : postuler avec de TRÈS bonnes candidatures, très personnalisées.</li>
     			<li class="parolesart">Travailler son réseau LinkedIn (2/3 de mes entretiens viennent de là).</li>
 				<li class="parolesart">De ma propre expérience, <strong>je n’ai jamais pu négocier une alternance en répondant à une annonce de stage</strong>. Selon moi, les entreprises qui 
 					recherchent des stagiaires veulent quelqu’un en full time. Ou alors, il faut peut-être contacter le recruteur avant de postuler, pour savoir si cela serait envisageable ? 
 					Pour moi, ça a toujours été une perte de temps.</li>
-    		</ul>
+			</ul>
+			
 		</div>
 
 		<div class="container" id="Quentin">
+
 			<title class="parolesart">Quentin</title>
 			<p class="parolesalter">Développeur d’application Frontend</p>
 	    	<img src="medias/temoignage_3.jpg" class="parolesart">
@@ -183,19 +188,19 @@
 				Développeur d’application Frontend d’OpenClassrooms et trouve son entreprise Occitaline dans la foulée, en banlieue toulousaine. Il développe des applications web avec NodeJs 
 				et s’occupe également de la réalisation des spécifications techniques avec son tuteur. Voici son témoignage sur ta recherche (éclair !) d’alternance.
 			</p>
-    		<h2 class="parolesart">Ta recherche d’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ta recherche d’alternance ?</strong></h2>
     		<p class="parolesart">
 				J’ai commencé ma recherche d’alternance début juin 2019, <strong>en envoyant mon CV un peu partout</strong>. J’ai passé 7 entretiens : 3 ont été négatifs et 4 favorables ! 
 				Une entreprise a répondu favorablement en me proposant un contrat de 2 ans. Mon premier entretien dans cette entreprise était le 24/06 et le 07/07, l’entreprise m’a confirmé 
 				que je suivrai mon alternance chez eux.
 			</p>
-    		<h2 class="parolesart">Ton ressenti pendant cette recherche d’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ton ressenti pendant cette recherche d’alternance ?</strong></h2>
     		<p class="parolesart">
 				J’ai commencé à développer à 13 ans, donc lors de ma recherche d’alternance, <strong>j’avais déjà de solides bases techniques.</strong> Mais si je ne connaissais pas les 
 				technologies évoquées lors du premier contact par téléphone, <strong>je suivais un MOOC avant l’entretien physique.</strong> J’étais donc <strong>très à l’aise durant cette 
 				recherche</strong> car les réponses me sont parvenues rapidement et j’ai enchaîné les entretiens.
 			</p>
-    		<h2 class="parolesart">Ton expérience de l’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ton expérience de l’alternance ?</strong></h2>
     		<p class="parolesart">
 				L’alternance apporte énormément ! Il y a <strong>une équipe de professionnels</strong> prêts à répondre à mes questions techniques et j’apprécie l’ambiance dans mon 
 				entreprise. Tout cela me permet d’apprendre beaucoup plus vite et <strong>c’est plus concret que des exercices</strong> car le travail effectué sera ensuite utilisé par de 
@@ -204,13 +209,15 @@
     		<p class="parolesart">
 				<strong>Être en PME est encore plus bénéfique</strong> car je touche à tout : recherche & développement, conception du produit et mise en production.
 			</p>
-    		<h2 class="parolesart">Ton conseil pour les aspirants alternants ?</h2>
+    		<h2 class="parolesart"><strong>Ton conseil pour les aspirants alternants ?</strong></h2>
     		<p class="parolesart">
 				Préparez-vous avant un entretien ! Si vous savez sur quelle techno se porte la mission, renseignez-vous. Vous serez vraiment avantagés par rapport à ceux qui ne le font pas.
 			</p>
+
 		</div>
 
 		<div class="container" id="Lamia">
+
 			<title class="parolesart">Lamia</title>
 			<p class="parolesalter">Développeuse d’application Python</p>
 	    	<img src="medias/temoignage_4.jpg" class="parolesart">
@@ -219,7 +226,7 @@
 				9 ans après avoir terminé ses études. Elle est actuellement <strong>en alternance dans une ESN sur le parcours développeur-se d’application Python d’OpenClassrooms.</strong> 
 				On la remercie bien fort pour son témoignage qui nous montre que même si le hasard fait parfois bien les choses, il faut<strong> avoir l’audace de provoquer les opportunités.</strong>
 			</p>
-    		<h2 class="parolesart">Ta recherche d’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ta recherche d’alternance ?</strong></h2>
     		<p class="parolesart">
 				C’était assez particulier. J’étais en CDI sur mon ancien poste quand j’ai décidé de me former via OpenClassrooms. Pendant une pause midi, je me suis rendue dans un fast food 
 				dans lequel je ne vais jamais habituellement. Il n’y avait pas de place alors <strong>je me suis retrouvée “comme par hasard” à une table avec un homme et une femme qui 
@@ -242,7 +249,7 @@
 				Je dirais donc que j’ai mis <strong>3 mois à trouver mon alternance,</strong> après une trentaine de candidatures et 1 entretien. J’avais aussi été présélectionnée par une autre 
 				entreprise après des tests, qui devait me recevoir en entretien, mais qui ne m’a pas donné de nouvelles avant des semaines pour finamlement me dire que le poste était pourvu.
 			</p>
-    		<h2 class="parolesart">Ton ressenti pendant cette recherche d’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ton ressenti pendant cette recherche d’alternance ?</strong></h2>
     		<p class="parolesart">
 				Des montagnes russes entre espoir et déception.
 			</p>
@@ -250,7 +257,7 @@
 				Mais que <strong>j’étais bien organisée et j’étais à l’aise dans cet exercice.</strong> Toutefois, c’est mon manque d’expérience qui me faisait un peu peur mais j’avais 
 				suffisamment mûri ce choix que je n’ai à aucun moment voulu laisser tomber.
 			</p>
-    		<h2 class="parolesart">Ton expérience de l’alternance ?</h2>
+    		<h2 class="parolesart"><strong>Ton expérience de l’alternance ?</strong></h2>
     		<p class="parolesart">
 				Au final, j’ai la sensation que le destin m’a guidé car je me suis retrouvée dans <strong>un endroit que j’apprécie énormément et je suis très bien entourée.</strong> Le 
 				premier jour était FLIPPANT. Je dirais même les premières semaines, car je ne comprenais que la moitié de ce qu’on me disait. Je me suis dis : “mais ils savent que je suis 
@@ -272,14 +279,14 @@
     			<li class="parolesart">Un soulagement côté finances.</li>
     			<li class="parolesart">Une expérience qui se construit en même temps que la formation.</li>
     		</ul>
-    		<h2 class="parolesart">Ton conseil pour les aspirants alternants ?</h2>
+    		<h2 class="parolesart"><strong>Ton conseil pour les aspirants alternants ?</strong></h2>
     		<p class="parolesart">
 				Organisez-vous. Si ce n’est pas votre point fort, suivez un programme de coaching avec votre école. Avec le confinement, ce n’est pas évident mais pour ma part, quand je 
 				cherchais, j’allais à des meet up ou événements liés au métier pour essayer de créer un réseau, car je ne connaissais vraiment personne de ce monde. Au final, je n’ai 
 				vraiment pas créé ce réseau mais j’ai souvent eu des réponses à mes questions. Relancez les entreprises et surtout n’abandonnez pas !
 			</p>
-		</div>
 
+		</div>
 
 	</body>
 	<?php include 'include/footer.php'; ?>

@@ -13,7 +13,7 @@
 			</ul>
 			<ul class="footer">
 				<title class="footer">Autre</title>
-					<a href="#" class="footer"><li class="footer">Mentions légales</li></a>
+					<a href="include/mention.php" class="footer"><li class="footer">Mentions légales</li></a>
 			</ul>
 		</nav>
 	</div>
