@@ -30,18 +30,8 @@
         
 	        <div class="mySlides fade">
 	          	<img src="medias/carousel2.jpg" style="width:100%">
-	          	<div class="text">ALT-R te donne accès gratuitement aux conseils et aux témoignages de ceux qui <br> sont aussi passés par là pour t’aider à trouver une alternance.</div>
+	          	<div class="text">ALT-R te donne accès aux conseils et aux témoignages de ceux qui <br> sont aussi passés par là pour t’aider à trouver une alternance.</div>
 			</div>     
-			 	
-        	<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!-- Next and previous buttons -->
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>	
-		</div>
-
-		<br>  
-
-        <div style="text-align:center">
-        	<span class="dot" onclick="currentSlide(1)"></span> <!-- The dots/circles -->
-        	<span class="dot" onclick="currentSlide(2)"></span>
 		</div>			
 
 		<div class="container">
@@ -159,37 +149,26 @@
 
 		<div class="disclaimer">
 			<title class="disclaimer">Disclaimer</title>
-			<p class="disclaimer">Nous ne sommes ni partenaires, ni affiliés d’OpenClassrooms. ALT-R est un projet sans aucun but lucratif, proposant seulement des conseils et du soutien.</p>
+			<p class="disclaimer">ALT-R est un projet sans aucun but lucratif, proposant seulement des conseils et du soutien.</p>
 		</div>
 
-		<script>
-			var slideIndex = 1;
-			showSlides(slideIndex);
-			
-			function plusSlides(n) {
-			  showSlides(slideIndex += n);
-			}
-			
-			function currentSlide(n) {
-			  showSlides(slideIndex = n);
-			}
-			
-			function showSlides(n) {
-			  var i;
-			  var slides = document.getElementsByClassName("mySlides");
-			  var dots = document.getElementsByClassName("dot");
-			  if (n > slides.length) {slideIndex = 1}    
-			  if (n < 1) {slideIndex = slides.length}
-			  for (i = 0; i < slides.length; i++) {
-				  slides[i].style.display = "none";  
-			  }
-			  for (i = 0; i < dots.length; i++) {
-				  dots[i].className = dots[i].className.replace(" active", "");
-			  }
-			  slides[slideIndex-1].style.display = "block";  
-			  dots[slideIndex-1].className += " active";
-			}
-			</script>
+		<script> 
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}
+              slides[slideIndex-1].style.display = "block";
+              setTimeout(showSlides, 7000); // Change image every 7 seconds
+            }
+
+		</script>
 
 	</body>
 	<?php include 'include/footer.php'; ?>
