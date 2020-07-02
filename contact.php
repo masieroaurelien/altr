@@ -9,7 +9,7 @@ if (isset($_POST['submit'])){
 	 if (!empty($name) AND !empty($mail) AND !empty($message)) {
 	 	if (filter_var($mail, FILTER_VALIDATE_EMAIL)) {
 	 		$from = $mail;
-			// $to ="MAIL DE MORGANE";
+			$to ="contact@alt-r-alternance.fr";
 			$subject = "Contact from altr.fr";
 			$headers = "From:" . $from;
 			mail($to,$subject,$message, $headers);
