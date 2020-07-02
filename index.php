@@ -22,7 +22,7 @@
 			</div>
 		</div>
 
-		<div class="slideshow-container">	<!-- carousel --> 
+		<div class="container slideshow">	<!-- carousel --> 
 	        <div class="mySlides fade">
 	          	<img src="medias/carousel1.jpg" style="width:100%">
 	          	<div class="text">Tu veux rejoindre l’univers tech & digital en passant par la case alternance ? <br> Tu as ouvert le bon onglet et celui-ci, tu peux le mettre en favori.</div>

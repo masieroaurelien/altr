@@ -14,7 +14,7 @@
 
 	<body>
 
-		<div class="container flex">
+		<div class="container flex alternpres">
 			
 			<a href="#alternance" class="alternance">
 				<div class="case alternance">
@@ -40,7 +40,7 @@
 
 		</div>
 
-		<div class="container" id="alternance">
+		<div class="container alterarticle" id="alternance">
 
 			<title class="alternanceart">Qu'est ce que l'alternance?</title>
 			<img src="medias/alternance_alternance.jpg" class="alternanceart">
@@ -76,7 +76,7 @@
 
 		</div>
 
-		<div class="container" id="contrats">
+		<div class="container alterarticle" id="contrats">
 
 			<title class="alternanceart">Les 2 contrats d’alternance</title>
 			<img src="medias/alternance_contrats.jpg" class="alternanceart"></img>
@@ -112,7 +112,7 @@
 				
 		</div>
 
-		<div class="container" id="avantages">
+		<div class="container alterarticle" id="avantages">
 
 			<title class="alternanceart">Les avantages de l'alternance</title>
 			<img src="medias/alternance_avantages.jpg" class="alternanceart"></img>

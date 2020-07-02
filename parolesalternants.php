@@ -47,7 +47,7 @@
 
 		</div>
 
-	    <div class="container" id="Christophe">
+	    <div class="container articlesparoles" id="Christophe">
 
 			<title class="parolesart">Christophe</title>
 			<p class="parolesalter">Développeur Androïd</p>
@@ -122,7 +122,7 @@
 			</p>
 		</div>
 		
-		<div class="container" id="Cécile">
+		<div class="container articlesparoles" id="Cécile">
 
 			<title class="parolesart">Cécile</title>
 			<p class="parolesalter">Chef de projet digital</p>
@@ -178,7 +178,7 @@
 			
 		</div>
 
-		<div class="container" id="Quentin">
+		<div class="container articlesparoles" id="Quentin">
 
 			<title class="parolesart">Quentin</title>
 			<p class="parolesalter">Développeur d’application Frontend</p>
@@ -216,7 +216,7 @@
 
 		</div>
 
-		<div class="container" id="Lamia">
+		<div class="container articlesparoles" id="Lamia">
 
 			<title class="parolesart">Lamia</title>
 			<p class="parolesalter">Développeuse d’application Python</p>

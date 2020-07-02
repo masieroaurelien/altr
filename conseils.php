@@ -46,7 +46,7 @@
 
 		</div>
 
-		<div class="container" id="article1"> <!-- article 1 -->
+		<div class="container articlesconseils" id="article1"> <!-- article 1 -->
 
 			<title class="conseilsart">Les meilleures startégies pour décrocher une alternance</title>
 			<img src="medias/article1.jpg" class="conseilsart">
@@ -289,7 +289,7 @@
 
 		</div>
 
-		<div class="container" id="article2"> <!-- article 2 -->
+		<div class="container articlesconseils" id="article2"> <!-- article 2 -->
 
 			<title class="conseilsart">Perfectionner son CV et sa lettre de motivation pour postuler à une alternance</title>
 			<img src="medias/article2.jpg" class="conseilsart">
@@ -480,7 +480,7 @@
 
 		</div>
 
-		<div class="container" id="article3"> <!-- article 3 -->
+		<div class="container articlesconseils" id="article3"> <!-- article 3 -->
 
 			<title class="conseilsart">Réussir son entretien d’embauche pour une alternance</title>
 			<img src="medias/article3.jpg" class="conseilsart">
@@ -615,7 +615,7 @@
 
 		</div>
 
-		<div class="container" id="article4"> <!-- article 4 -->
+		<div class="container articlesconseils" id="article4"> <!-- article 4 -->
 
 			<title class="conseilsart">Garder la motivation pendant sa recherche d’alternance</title>
 			<img src="medias/article4.jpg" class="conseilsart">
