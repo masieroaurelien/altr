@@ -965,6 +965,11 @@ li.mention {
 		margin: 20px;
 	}
 
+	img.alternance {
+		width: 100%;
+		height: 225px;
+	}
+
 	img.alternanceart {
 		width: 75%;
 	}
@@ -981,6 +986,11 @@ li.mention {
 	title.conseils {
 		font-size: 20px;
 		font-weight: lighter;
+	}
+
+	img.conseils {
+		width: 100%;
+		height: 225px;
 	}
 
 	img.conseilsart {
